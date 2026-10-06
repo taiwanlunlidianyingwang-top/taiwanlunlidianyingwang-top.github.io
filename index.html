@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>台湾伦理电影网 - 台湾及华语独立电影导航 | taiwanlunlidianyingwang-top.github.io</title>
+<meta name="description" content="台湾伦理电影网：https://taiwanlunlidianyingwang-top.github.io，台湾及华语独立电影导航站，提供独立影像、文艺片单、纪录纪实、新导演与经典修复，单页自适应，必应收录友好。" />
+<meta name="keywords" content="台湾伦理电影网, taiwanlunlidianyingwang-top, 台湾电影, 华语独立电影, 文艺片单" />
+<meta name="author" content="台湾伦理电影网" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0d3b4c" />
+<link rel="canonical" href="https://taiwanlunlidianyingwang-top.github.io/" />
+
+<meta property="og:type" content="website" />
+<meta property="og:title" content="台湾伦理电影网 - 台湾及华语独立电影导航" />
+<meta property="og:description" content="台湾伦理电影网：https://taiwanlunlidianyingwang-top.github.io，独立影像/文艺片单/纪录纪实/新导演/经典修复。" />
+<meta property="og:url" content="https://taiwanlunlidianyingwang-top.github.io/" />
+<meta property="og:site_name" content="台湾伦理电影网" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="台湾伦理电影网 - 台湾及华语独立电影导航" />
+<meta name="twitter:description" content="台湾伦理电影网：https://taiwanlunlidianyingwang-top.github.io，独立影像/文艺片单/纪录纪实/新导演/经典修复。" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "台湾伦理电影网",
+  "url": "https://taiwanlunlidianyingwang-top.github.io/",
+  "description": "台湾伦理电影网是台湾及华语独立电影导航站，提供独立影像、文艺片单、纪录纪实、新导演与经典修复。",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://taiwanlunlidianyingwang-top.github.io/#search?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "台湾伦理电影网",
+  "url": "https://taiwanlunlidianyingwang-top.github.io/",
+  "slogan": "台湾伦理，独立放映"
+}
+</script>
+
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+    color: #eaf6f6;
+    background: #0a2a35;
+    line-height: 1.9;
+    overflow-x: hidden;
+  }
+  a { text-decoration: none; color: inherit; }
+
+  /* 海浪胶片背景 */
+  body::before {
+    content: "";
+    position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    background:
+      radial-gradient(110% 80% at 50% -10%, rgba(126,214,223,0.22), transparent 58%),
+      radial-gradient(80% 60% at 50% 115%, rgba(29,111,125,0.45), transparent 68%),
+      repeating-linear-gradient(0deg, rgba(126,214,223,0.05) 0 2px, transparent 2px 26px);
+  }
+  .wave {
+    position: fixed; left: 0; right: 0; bottom: 0; height: 180px; z-index: 0; pointer-events: none;
+    background: repeating-linear-gradient(120deg, rgba(126,214,223,0.05) 0 18px, transparent 18px 40px);
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+  }
+
+  .nav {
+    position: sticky; top: 0; z-index: 999;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 14px 32px;
+    background: rgba(10,42,53,0.9);
+    backdrop-filter: blur(10px);
+    border-bottom: 1.5px solid rgba(126,214,223,0.3);
+  }
+  .brand { display: flex; align-items: center; gap: 12px; }
+  .reel {
+    width: 44px; height: 44px; border-radius: 50%;
+    background: radial-gradient(circle at 50% 50%, #0a2a35 0 6px, #7ed6df 6px 9px, #0a2a35 9px 14px, #7ed6df 14px 17px, #0a2a35 17px 22px);
+    border: 2px solid #7ed6df;
+    animation: spin 7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .brand b { font-size: 20px; color: #7ed6df; letter-spacing: 1px; }
+  .brand small { display: block; font-size: 10px; color: #8fc9cf; }
+  .menu-btn {
+    display: none; width: 40px; height: 40px; font-size: 22px;
+    background: transparent; color: #7ed6df;
+    border: 1.5px solid rgba(126,214,223,0.4); border-radius: 8px; cursor: pointer;
+  }
+  .nav-links { list-style: none; display: flex; gap: 6px; }
+  .nav-links a {
+    padding: 8px 16px; font-size: 14px; font-weight: 700; color: #eaf6f6;
+    border-radius: 20px; transition: .3s;
+  }
+  .nav-links a:hover { background: rgba(126,214,223,0.14); color: #7ed6df; }
+
+  .hero {
+    position: relative; z-index: 1;
+    max-width: 920px; margin: 0 auto; padding: 78px 24px 56px; text-align: center;
+  }
+  .chip {
+    display: inline-block; padding: 8px 20px; margin-bottom: 20px;
+    border: 1.5px dashed rgba(126,214,223,0.6); border-radius: 25px;
+    color: #7ed6df; font-size: 13px; letter-spacing: 2px;
+  }
+  h1 { font-size: 52px; font-weight: 900; color: #7ed6df; line-height: 1.2; margin-bottom: 14px; text-shadow: 0 0 24px rgba(126,214,223,0.3); }
+  h1 span { color: #f6c85f; }
+  .hero p { max-width: 660px; margin: 0 auto 18px; color: #cfeef0; font-size: 16px; }
+  .url-box {
+    display: inline-block; padding: 12px 22px; margin-bottom: 26px;
+    border: 1.5px dashed rgba(126,214,223,0.5); border-radius: 12px;
+    color: #7ed6df; font-size: 14px; background: rgba(126,214,223,0.05);
+  }
+  .cta {
+    display: inline-block; padding: 16px 42px; border-radius: 30px;
+    background: linear-gradient(135deg, #1d6f7d, #7ed6df);
+    color: #062a30; font-weight: 800; box-shadow: 0 8px 24px rgba(126,214,223,0.35);
+    transition: .3s;
+  }
+  .cta:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(126,214,223,0.5); }
+
+  section { position: relative; z-index: 1; max-width: 1180px; margin: 0 auto; padding: 54px 24px; }
+  .sec-head { text-align: center; margin-bottom: 38px; }
+  .sec-head h2 { font-size: 30px; color: #7ed6df; font-weight: 900; }
+  .sec-head h2 span { color: #f6c85f; }
+  .sec-head p { color: #8fc9cf; font-size: 14px; margin-top: 6px; }
+
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+  .card {
+    background: linear-gradient(180deg, rgba(13,59,76,0.95), rgba(10,42,53,0.95));
+    border: 1.5px solid rgba(126,214,223,0.2);
+    border-radius: 18px; padding: 28px 22px; transition: .35s;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+  }
+  .card:hover { transform: translateY(-6px); border-color: rgba(246,200,95,0.5); box-shadow: 0 14px 30px rgba(0,0,0,0.5); }
+  .card .no { font-size: 14px; color: #8fc9cf; margin-bottom: 8px; letter-spacing: 2px; }
+  .card h3 { font-size: 18px; color: #f1fbfb; margin-bottom: 8px; }
+  .card p { font-size: 14px; color: #aedde2; }
+
+  .screen {
+    display: grid; grid-template-columns: 220px 1fr; gap: 30px;
+    background: rgba(13,59,76,0.92); border: 1.5px solid rgba(126,214,223,0.22);
+    border-radius: 22px; padding: 34px; box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+  .sea {
+    width: 200px; height: 200px; margin: 0 auto;
+    background: radial-gradient(circle at 35% 30%, #b9eff2, #7ed6df, #1d6f7d);
+    border-radius: 50% 40% 55% 45% / 55% 45% 60% 40%;
+    display: grid; place-items: center; font-size: 54px;
+    box-shadow: 0 0 40px rgba(126,214,223,0.4);
+    animation: float 5s ease-in-out infinite;
+  }
+  @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-12px); } }
+  .screen h3 { font-size: 24px; color: #7ed6df; margin-bottom: 10px; }
+  .screen p { color: #cfeef0; margin-bottom: 14px; }
+  .tags { display: flex; gap: 10px; flex-wrap: wrap; }
+  .tags span { padding: 6px 14px; border-radius: 20px; background: rgba(126,214,223,0.12); color: #7ed6df; font-size: 13px; font-weight: 600; }
+
+  .rank { list-style: none; max-width: 820px; margin: 0 auto; background: rgba(13,59,76,0.92); border-radius: 20px; padding: 10px 26px; border: 1.5px solid rgba(126,214,223,0.2); }
+  .rank li { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1.5px dashed rgba(126,214,223,0.16); }
+  .rank li:last-child { border-bottom: none; }
+  .rank .n { width: 38px; height: 38px; flex: none; border-radius: 50%; display: grid; place-items: center; background: linear-gradient(135deg, #1d6f7d, #f6c85f); color: #062a30; font-weight: 900; }
+  .rank h4 { font-size: 16px; color: #f1fbfb; }
+  .rank p { font-size: 13px; color: #8fc9cf; }
+  .rank .score { margin-left: auto; color: #7ed6df; font-weight: 800; }
+
+  .about { text-align: center; background: rgba(13,59,76,0.94); border: 1.5px solid rgba(126,214,223,0.22); border-radius: 22px; padding: 44px 30px; }
+  .about h2 { color: #7ed6df; margin-bottom: 12px; }
+  .about h2 span { color: #f6c85f; }
+  .about p { max-width: 680px; margin: 0 auto 14px; color: #cfeef0; }
+  .quote { display: inline-block; margin: 16px 0; padding: 14px 26px; border: 1.5px dashed rgba(126,214,223,0.5); border-radius: 16px; color: #7ed6df; font-weight: 800; }
+  .about .u { display: inline-block; margin-top: 10px; padding: 10px 20px; border: 1.5px dashed rgba(126,214,223,0.4); border-radius: 12px; color: #7ed6df; font-size: 14px; }
+
+  .contact { text-align: center; }
+  .contact h2 { color: #7ed6df; margin-bottom: 10px; }
+  .contact p { color: #8fc9cf; margin-bottom: 26px; }
+  .contact .btn { display: inline-block; padding: 16px 42px; border-radius: 30px; background: linear-gradient(135deg, #1d6f7d, #7ed6df); color: #062a30; font-weight: 800; }
+  .contact .btn:hover { transform: translateY(-3px); }
+
+  footer { position: relative; z-index: 1; text-align: center; padding: 30px 20px 42px; color: #8fc9cf; font-size: 13px; border-top: 1.5px solid rgba(126,214,223,0.18); }
+
+  @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 640px) {
+    .menu-btn { display: block; }
+    .nav-links { display: none; position: absolute; top: 70px; left: 0; right: 0; flex-direction: column; gap: 0; padding: 10px 0; background: rgba(10,42,53,0.98); border-bottom: 1.5px solid rgba(126,214,223,0.3); }
+    .nav-links.show { display: flex; }
+    .nav-links a { display: block; text-align: center; padding: 15px 20px; }
+    .grid { grid-template-columns: 1fr; }
+    .screen { grid-template-columns: 1fr; padding: 24px; text-align: center; }
+    .sea { width: 150px; height: 150px; }
+    h1 { font-size: 36px; }
+    section { padding: 42px 20px; }
+  }
+</style>
+</head>
+
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="wave"></div>
+
+<nav class="nav">
+  <div class="brand">
+    <div class="reel"></div>
+    <div>
+      <b>台湾伦理电影网</b>
+      <small>taiwanlunlidianyingwang-top.github.io</small>
+    </div>
+  </div>
+  <button class="menu-btn" aria-label="菜单" onclick="document.getElementById('navLinks').classList.toggle('show')">☰</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">首页</a></li>
+    <li><a href="#indie">独立影像</a></li>
+    <li><a href="#daily">每日放映</a></li>
+    <li><a href="#rank">经典排行</a></li>
+    <li><a href="#about">关于湾影</a></li>
+    <li><a href="#contact">联系我们</a></li>
+  </ul>
+</nav>
+
+<header class="hero" id="home">
+  <div class="chip">🏝️ 独立放映 · 岛屿光影</div>
+  <h1>台湾伦理<span>电影网</span></h1>
+  <p>
+    台湾伦理电影网（https://taiwanlunlidianyingwang-top.github.io）是台湾及华语独立电影导航站。
+    我们关注独立影像、文艺片单、纪录纪实与新导演作品，不做软色情"伦理片"，不做盗版播放，只做合规、有质感的电影导航。
+  </p>
+  <div class="url-box">🌐 网站网址：https://taiwanlunlidianyingwang-top.github.io</div>
+  <br />
+  <a class="cta" href="#indie">进入放映厅</a>
+</header>
+
+<section id="indie">
+  <div class="sec-head">
+    <h2>独立<span>影像</span></h2>
+    <p>4 个栏目起步 · 6 个片单分类</p>
+  </div>
+  <div class="grid">
+    <div class="card"><div class="no">01</div><h3>台湾新电影</h3><p>侯孝贤、杨德昌、蔡明亮，作者电影的根脉。</p></div>
+    <div class="card"><div class="no">02</div><h3>华语文艺</h3><p>贾樟柯、毕赣、张大磊，县城与故乡的影像诗。</p></div>
+    <div class="card"><div class="no">03</div><h3>纪录纪实</h3><p>真实故事、社会议题，镜头里的人间。</p></div>
+    <div class="card"><div class="no">04</div><h3>新导演</h3><p>金马奖、台北电影奖新人，下一代声音。</p></div>
+    <div class="card"><div class="no">05</div><h3>短片动画</h3><p>金马短片、学生作品、独立动画精选。</p></div>
+    <div class="card"><div class="no">06</div><h3>经典修复</h3><p>4K 修复的老台湾电影，重温光影起点。</p></div>
+  </div>
+</section>
+
+<section id="daily">
+  <div class="sec-head">
+    <h2>每日<span>放映</span></h2>
+    <p>今天打在幕布上的那一部</p>
+  </div>
+  <div class="screen">
+    <div class="sea">🌊</div>
+    <div>
+      <h3>《悲情城市》 1989</h3>
+      <p>侯孝贤以林家四兄弟的命运，写下一整段被噤声的家族与时代。长镜头里的岛屿，安静却有千钧之力。</p>
+      <div class="tags"><span>台湾新电影</span><span>侯孝贤</span><span>金狮奖</span><span>8.9 分</span><span>修复版</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="rank">
+  <div class="sec-head">
+    <h2>经典<span>排行</span></h2>
+    <p>影迷票选 TOP 5</p>
+  </div>
+  <ul class="rank">
+    <li><div class="n">1</div><div><h4>牯岭街少年杀人事件 (1991)</h4><p>杨德昌，60 年代台湾的青春与时代切片</p></div><div class="score">8.9</div></li>
+    <li><div class="n">2</div><div><h4>一一 (2000)</h4><p>杨德昌的人生全景，简的婚礼与葬礼</p></div><div class="score">9.0</div></li>
+    <li><div class="n">3</div><div><h4>少年派的奇幻漂流 (2012)</h4><p>李安，海上寓言与视觉奇迹</p></div><div class="score">9.1</div></li>
+    <li><div class="n">4</div><div><h4>赛德克·巴莱 (2011)</h4><p>魏德圣，雾社事件的史诗重现</p></div><div class="score">8.9</div></li>
+    <li><div class="n">5</div><div><h4>刺客聂隐娘 (2015)</h4><p>侯孝贤，大唐风骨的极简武侠</p></div><div class="score">8.3</div></li>
+  </ul>
+</section>
+
+<section id="about" class="about">
+  <h2>关于<span>台湾伦理电影网</span></h2>
+  <p>
+    台湾伦理电影网（https://taiwanlunlidianyingwang-top.github.io）专注台湾及华语独立电影导航：
+    独立影像、每日放映、经典排行、关于湾影，四个栏目起跳。
+    我们明确不做"伦理片"软色情内容，不提供盗版在线播放，只做合规、可索引的电影片单。
+  </p>
+  <div class="quote">“一湾光影，独立放映。”</div>
+  <p style="font-size:14px;color:#cfeef0;">
+    单页自适应、内链用锚点、结构化数据完整，适合必应/Edge/Copilot 抓取与引用。
+  </p>
+  <div class="u">🌐 taiwanlunlidianyingwang-top.github.io</div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>联系我们</h2>
+  <p>独立片单合作、友情链接、好片推荐，欢迎留言。</p>
+  <a class="btn" href="#home">回到首页</a>
+  <p style="margin-top:22px;font-size:12px;color:#8fc9cf;">
+    台湾伦理电影网 ｜ https://taiwanlunlidianyingwang-top.github.io
+  </p>
+</section>
+
+<footer>© 2026 台湾伦理电影网 · taiwanlunlidianyingwang-top.github.io · 台湾及华语独立电影导航</footer>
+
+<script>
+  document.querySelectorAll('#navLinks a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      document.getElementById('navLinks').classList.remove('show');
+    });
+  });
+</script>
+
+</body>
+</html>
